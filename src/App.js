@@ -10,18 +10,18 @@ function App() {
 
 
   return (
-  //   <BrowserRouter>
+    <BrowserRouter>
 
-  //   <Routes>
-  //      <Route path='/signup' element={<Signup />}></Route>
-  //      <Route path='/login' element={<Login />}></Route>
+    <Routes>
+       <Route path='/signup' element={<Signup />}></Route>
+       <Route path='/login' element={<Login />}></Route>
       
-  //   </Routes>
-  // </BrowserRouter>\
-  <div>
-    {/* <Signup /> */}
-    <Login />
-  </div>
+    </Routes>
+  </BrowserRouter>
+  // <div>
+  //   {/* <Signup /> */}
+  //   <Login />
+  // </div>
   
 )
 

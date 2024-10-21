@@ -40,8 +40,8 @@ function Signup() {
         try{
 
             
-            const response = await axios.post('', {name,email,password});
-            
+            const response = await axios.post('http://localhost:3003/signup', {name,email,password});
+            console.log(response);
             alert("Signup Successfull");
             setName('');
             setEmail('');

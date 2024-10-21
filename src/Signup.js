@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import axios from 'axios';
 
 function Signup() {
@@ -83,7 +83,7 @@ function Signup() {
                     </div>
                     <button type="submit" className="btn btn-success w-100 rounded-0" disabled={Object.keys(errors).length>0}>Signup</button>
                 </form>
-                <Link to="/login" className="btn btn-default border w-100 bg-light rounded-0 text-decoration-none">Login</Link>
+               {/* <Link to="/login" className="btn btn-default border w-100 bg-light rounded-0 text-decoration-none">Login</Link> */}
             </div>
         </div>
     )

@@ -56,4 +56,5 @@ const BookingPage = ({ property }) => {
   );
 };
 
+
 export default BookingPage;

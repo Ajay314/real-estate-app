@@ -10,12 +10,7 @@ function AddProperty() {
     const [ location , setLocation ] = useState('');
     const [ availablity, setAvailablity ] = useState('');
     
-    
-
-
-   
-
-    const handleSubmit = async (e) =>{
+     const handleSubmit = async (e) =>{
         e.preventDefault();
 
         
@@ -79,7 +74,7 @@ function AddProperty() {
                     </div>
                     <button type="submit" className="btn btn-success w-100 rounded-0">Add Property</button>
                 </form>
-               {/* <Link to="/login" className="btn btn-default border w-100 bg-light rounded-0 text-decoration-none">Login</Link> */}
+              
             </div>
         </div>
     )

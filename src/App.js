@@ -6,6 +6,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from './Login.js';
 // import PropertyList from './Propertylist.js';
 import AddProperty from './AddProperty.js';
+import AdminSignup from './AdminSignUp.js';
+import AdminLogin from './AdminLogin.js';
+import PropertyList from './GetProperty.js';
 
 function App() {
   
@@ -22,8 +25,13 @@ function App() {
   // </BrowserRouter>
   <div>
     {/* <Signup />
-    <Login /> */}
-    <AddProperty />
+        
+      
+    {/* <AddProperty /> */}
+    {/* <AdminSignup /> */}
+    {/* <AdminLogin /> */}
+    {/* <PropertyList /> */}
+    <Login />
   </div>
   
 )
